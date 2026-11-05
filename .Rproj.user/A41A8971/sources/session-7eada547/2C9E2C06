@@ -1,0 +1,26 @@
+{
+    "id": "2C9E2C06",
+    "path": "~/DATA550/final/code/02_make_figure.R",
+    "project_path": "code/02_make_figure.R",
+    "type": "r_source",
+    "hash": "825853064",
+    "contents": "",
+    "dirty": false,
+    "created": 1793895740954.0,
+    "source_on_save": false,
+    "relative_order": 4,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "18,43",
+        "scrollLine": "2"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1793895960,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1793895960910,
+    "read_only": false,
+    "read_only_alternatives": []
+}

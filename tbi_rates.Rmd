@@ -1,0 +1,31 @@
+---
+title: "Final Project Part 2"
+author: "Elizabeth Jackson"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(ggplot2)
+library(gt)
+```
+
+# Introduction
+
+This data set shows the rates of traumatic brain injury related visits to the ED, hospitalizations, and deaths by sex in the U.S. from 2001 to 2010. This report will have descriptive statistics summarizing these rates by sex and by year, including overall trends and sex-based rate comparisons across the decade. To visualize these patterns, a line graph will be produced showing two lines by sex plotted over the years 2001 to 2010.
+
+
+# Table
+The table below shows the rates of TBI, per 100,000 people, by sex from 2001 to 2010. The table shows that as the years go on, the TBI rates for both males and females increased. Further, males have higher TBI rates than males each year. 
+
+```{r formatted-table, echo = FALSE}
+knitr::include_graphics(here::here("output", "table1.png"))
+```
+
+# Figure
+The figure below visually shows the rates of TBI, per 100,000 people, by sex from 2001 to 2010. This line graph is helpful to quickly see how the rates have changed over the years, and how that varies between male and females. This shows how males have higher rates of TBI than women every year from 2001 to 2010. You can also see the sharp increase in rates of TBI for men from 2007 to 2009. 
+
+```{r figure, echo = FALSE}
+knitr::include_graphics(here::here("output", "figure1.png"))
+```
