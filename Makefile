@@ -10,3 +10,7 @@ output/figure1.png: code/02_make_figure.R data/raw_data.csv
 .PHONY: clean
 clean:
 	rm -f output/* tbi_rates.html
+	
+.PHONY: install
+install:
+	Rscript -e "renv::restore(prompt = FALSE)"

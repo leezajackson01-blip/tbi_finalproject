@@ -11,7 +11,7 @@ by sex plotted over the years 2001 to 2010.
 - `tbi_rates.Rmd` – the final report 
 - `data/raw_data.csv` – raw data that shows TBI rates by sex and year
 - `code/` – R scripts that create the table and figure
-- `output/` – resulting table (`table1.rds`) and figure (`figure1.png`)
+- `output/` – resulting table (`table1.png`) and figure (`figure1.png`)
 - `Makefile` – detailed instructions on how to build
 
 ## table and figure code locations
@@ -19,5 +19,5 @@ by sex plotted over the years 2001 to 2010.
 - Table: `code/01_make_table.R`
 - Figure: `code/02_make_figure.R`
 
-#generating final report
-run "make clean", then "make tbi_rates.html" in terminal
+# generating final report
+run "make install", run "make clean" then "make tbi_rates.html" in the terminal
